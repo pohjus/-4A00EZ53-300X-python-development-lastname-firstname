@@ -2,7 +2,7 @@
 
 Home exercises for course 4A00EZ53 Python Development.
 
-The tree structure for the exercises
+The tree structure for the exercises:
 
 ```text
 .
@@ -12,16 +12,13 @@ The tree structure for the exercises
     │   ├── e01.py
     │   └── e02.py
     │   ...
-    │   └── e0x.py
     ├── 02
     │   ├── e01.py
     │   └── e02.py
     │   ...
-    │   └── e0x.py
     ├── 03
     │   ├── e01.py
     │   └── e02.py
     .
     .
-
 ```
