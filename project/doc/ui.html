@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.10.0" />
-<title>main API documentation</title>
-<meta name="description" content="" />
+<title>ui API documentation</title>
+<meta name="description" content="Contains function that are user interface related (cli)." />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
 <link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
@@ -19,29 +19,20 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>main</code></h1>
+<h1 class="title">Module <code>ui</code></h1>
 </header>
 <section id="section-intro">
+<p>Contains function that are user interface related (cli).</p>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">from ui import get_title
-
-&#34;&#34;&#34;My Project
-
-Short explanation of the file and the project.
-
-__author__ = &#34;Jussi Pohjolainen&#34;
-&#34;&#34;&#34;
+<pre><code class="python">&#34;&#34;&#34;Contains function that are user interface related (cli).&#34;&#34;&#34;
 
 
-def main():
-    &#34;&#34;&#34;The main function that starts the app&#34;&#34;&#34;
-    print(get_title())
-
-
-main()</code></pre>
+def get_title():
+    &#34;&#34;&#34;Returns the project work name&#34;&#34;&#34;
+    return(&#34;Battleship&#34;)</code></pre>
 </details>
 </section>
 <section>
@@ -51,18 +42,18 @@ main()</code></pre>
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="main.main"><code class="name flex">
-<span>def <span class="ident">main</span></span>(<span>)</span>
+<dt id="ui.get_title"><code class="name flex">
+<span>def <span class="ident">get_title</span></span>(<span>)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>The main function that starts the app</p></div>
+<div class="desc"><p>Returns the project work name</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def main():
-    &#34;&#34;&#34;The main function that starts the app&#34;&#34;&#34;
-    print(get_title())</code></pre>
+<pre><code class="python">def get_title():
+    &#34;&#34;&#34;Returns the project work name&#34;&#34;&#34;
+    return(&#34;Battleship&#34;)</code></pre>
 </details>
 </dd>
 </dl>
@@ -78,7 +69,7 @@ main()</code></pre>
 <ul id="index">
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
-<li><code><a title="main.main" href="#main.main">main</a></code></li>
+<li><code><a title="ui.get_title" href="#ui.get_title">get_title</a></code></li>
 </ul>
 </li>
 </ul>
