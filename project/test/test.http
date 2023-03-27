@@ -27,3 +27,7 @@ get http://127.0.0.1:5000/api/scores?sort=desc?pw=secret
 ###
 
 get http://127.0.0.1:5000/api/scores?sort=desc?limit=10?pw=secret
+
+###
+
+delete http://127.0.0.1:5000/api/scores/1
